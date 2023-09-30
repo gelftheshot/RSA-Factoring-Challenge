@@ -3,7 +3,7 @@
 #include <gmp.h>
 
 int main(int argc, char **argv) {
-	char line[100];
+	char line[4064];
 
 	FILE *file = fopen(argv[1], "r");
 
